@@ -67,3 +67,14 @@
                 - pgp 7 forms from tideways, patrickallaert or longxinH
             - adsr/phpspy (Linux only at the momoent, WIP)
             - php-meminfo
+        #### Diagnostics
+        
+        #### Capture Baseline
+            - setup xhprof
+            - setup xdebug
+            - install qcachegrind(mac)/kcachegrind
+                - visualition tool
+                    
+        #### Generate flamegraphs
+            - phpspy or
+            - 
