@@ -1,0 +1,71 @@
+### Local tips
+- Turn on logging of notices (E_NOTICE)
+- Let the application crash on the first application error (Defensive programming)
+  - Don't try to recover from an unexpected state.
+- should use strict types
+  - makes you aware of what types are in your application
+- Use a coding standard from PHPCS or PHP code fixer
+- using primitive types doesn't help much at all
+  - Use objects for everything (remove the primitives from method calls)
+  - type hints communicate what can be passed into a method
+  - By type hinting I tell the developer what can be done with the method
+  - type hint the return of the method
+- Overusing arrays
+  - You don't know the keys of an array
+  - You don't know the types of the array values
+  - Should only use an array as a collection (Objects or single value)
+- Avoid ambitious functions
+  - Avoid a function that requires a bunch of type checking conditions
+  - Instead fracture the function into functions that handle a single type
+- Nullable parameters
+  - prevent an invalid state by not allowing nullable parameters
+- Don't create dynamic code
+  - $$variable, $this->$property, $this->$method(), 
+- Dont use Callables
+  - array_map('foo', $arr), $this->attachOnSuccess([$this, 'submitForm])
+  - array_map(
+    function (int $value): int {
+
+    }
+  )
+- Loose comparisons leads to unexpected consequences
+  - Strict comparison only gives you expected result
+  - just compare formatted strings of dates because timestamps are too specific
+- dont use empty()
+  - it hides undefined variables
+  - use phpstan-strict-rules to help write more strict conditionals
+
+
+- Structural/Arcitectural Tips
+  - Controller to models should pass strongly typed instances
+  - Wiring
+    - Controllers
+    - Facades
+    - Passing values somewhere else
+    - Getters
+    - Setters
+    - Assigning to properties
+  - Business Logic
+    - Valid validation
+    - Arithmetic operations, rounding
+    - Filtering
+    - Parsing
+    - State machines
+    - if confitions, loops.
+  - Undetecting bugs in wiring
+  - What is a unit test?
+    - Exectuing php code directly and only in memory
+    - Does not connect to the database
+    - Does not access the filesystem
+    - Does not make network calls
+    - Does not need a DI container
+  - Mocking has the potential to  not match the existing behaviour
+    - Pass data from a manual created test data instead of mocking
+    - *PHP dataProvider* for sending data to a method in a unit test
+    - Not using mocks helps to be confident the code works
+    - On your own code spend more time on unit tests and less time on integration tests
+  - Wrong reasons to use an ORM
+    - Youre to lazy to use an ORM
+    - The ability to switch between sql instances (MYSQL to Postgres)
+  - Right reason to use an ORM
+    - ability to 
