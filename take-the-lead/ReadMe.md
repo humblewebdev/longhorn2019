@@ -100,4 +100,25 @@
                 - 
                 - need to be able to identify strengths and weakness'
                     - lean on strengths
+            - Communication
+                - sending/receiving a message
+                - verbal and non verbal communication
+                - Its important to communicate a message in clear manner
+                - Listen and grasp the meanings of words
+                - Communicate in words face to face you dont need to state
+
+    ### Common skills of a lead
+        - Delegating
+            - A team lead that has an attitude that I can do it better myself is 
+                not good for the team.
+        - Motivating
+            - Team is not going to be very successful if you cannot motivate them
+            - A team is made up of individuals and they respond to things differently
+                - some need more complements than other
+        - Be Receptive
+            - Its easy to be perceptive to positive feedback.
+            - Need to be willing to listen to negative feedback
+        - Conflict management
+            - Teams performance is impeaded by conflicts
+            - Need to guide in working out a solution
             
