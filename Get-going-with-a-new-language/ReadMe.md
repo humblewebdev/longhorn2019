@@ -32,4 +32,9 @@
         - concurrency: two threads are making progress
         - Parrelism: two threads are executing simultaneously
     
-
+    #### Go routines
+        - `go myFunction`
+        - can use wait groups to manage concurrent thread finishing
+        ##### Channels
+            - pipes or ques you send and receive data
+            - `
