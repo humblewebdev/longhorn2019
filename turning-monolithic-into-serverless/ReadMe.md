@@ -41,4 +41,5 @@
 ### Best way to start with serverless is Logs
     - start with handling logs. Don't event touch the legacy app.
     - parsing logs to block abusive users & fraudsters
-    - 
+   
+
