@@ -37,4 +37,13 @@
         - can use wait groups to manage concurrent thread finishing
         ##### Channels
             - pipes or ques you send and receive data
-            - `
+
+### Resources
+    - golange.org
+    - play.golang.org
+    - tour.golang.org
+    - blog.golang.org
+    - gobyexample.com
+
+    - Slides    
+        - https://joind.in/event/longhorn-php-conference-2019/get-going-with-a-new-language
