@@ -89,3 +89,5 @@ navigator.serviceWorker.register('service-worker.js', {
 - Evaluate images on a case-by-case basis. Especially for mobile. Does it block actual content? "Not every article needs a picture"
 - Provide WebP format images for browsers than can support it (Chromium based browsers)
 - If possible, set backgrounds of images to a solid color, so a compression library can blur it easily and save lots of data.
+
+Checkout out [webhint.io](https://webhint.io)
