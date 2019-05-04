@@ -89,3 +89,15 @@
             - Recognition of contributions by others
             - Reliability
 
+    ### Why the how matters
+        - 
+
+    ### Conclusions
+        - behaviours of a good team lead
+            - Vital Qualities as a leader
+                - listen
+                - balance answers to a question
+                - 
+                - need to be able to identify strengths and weakness'
+                    - lean on strengths
+            
