@@ -1,6 +1,6 @@
 # Performance Optimi$ation: How Do I Go About It? by Kat Zien
 
-https://joind.in/talk/09F01
+https://joind.in/talk/09f01
 @kasiazien
 
 ## Why
